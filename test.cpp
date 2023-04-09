@@ -5,7 +5,7 @@ using namespace std;
 
 
 void test_01(){
-    int val = 1025;
+    int val = 1024;
     int &ref = val;
     ref += 2;
     cout << "ref: " << ref << endl << "val: "<< val << endl;
